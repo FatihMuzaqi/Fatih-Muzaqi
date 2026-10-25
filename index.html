@@ -1,903 +1,1837 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fatih Muzaqi - Web Developer</title>
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
-    rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
+    <!-- Primary Meta Tags -->
+    <title>Fatih Muzaqi | Web Developer & Software Engineer</title>
+    <meta
+      name="title"
+      content="Fatih Muzaqi | Web Developer & Software Engineer"
+    />
+    <meta
+      name="description"
+      content="Portofolio resmi Achmad Fatih Muzaqi, Mahasiswa Teknik Informatika & Web Developer yang berfokus pada Fullstack Development (Node.js, Express, React, MySQL)."
+    />
+    <meta
+      name="keywords"
+      content="Fatih Muzaqi, Web Developer, Frontend, Backend, Fullstack, Node.js, React, Express, Tegal, STMIK YMI Tegal, Portofolio"
+    />
+    <meta name="author" content="Achmad Fatih Muzaqi" />
+    <meta name="theme-color" content="#0a0f1d" />
 
-<body id="top">
-  <header class="header" data-header>
-    <div class="container">
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Fatih Muzaqi | Web Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Portofolio resmi Achmad Fatih Muzaqi - Mahasiswa Teknik Informatika & Web Developer."
+    />
+    <meta property="og:image" content="./assets/images/photo_fatih.jpeg" />
 
-      <a href="#">
-        <h1 class="logo">Fatih Muzaqi</h1>
-      </a>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
-        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
-        <ion-icon name="close-outline" class="close-icon"></ion-icon>
-      </button>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-      <nav class="navbar container">
-        <ul class="navbar-list">
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
 
-          <li>
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
-          </li>
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
 
-          <li>
-            <a href="#about" class="navbar-link" data-nav-link>About</a>
-          </li>
+    <!-- Custom Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-          <li>
-            <a href="#education" class="navbar-link" data-nav-link>Education</a>
-          </li>
+  <body id="top">
+    <!--==================== HEADER & NAVBAR ====================-->
+    <header class="header" data-header>
+      <div class="container">
+        <!-- Logo -->
+        <a href="#top" class="logo" aria-label="Beranda Fatih Muzaqi">
+          <span class="logo-text">Fatih<span>.dev</span></span>
+        </a>
 
-          <li>
-            <a href="#project" class="navbar-link" data-nav-link>Project</a>
-          </li>
+        <!-- Desktop & Mobile Navigation -->
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link active">Beranda</a>
+            </li>
+            <li>
+              <a href="#about" class="navbar-link">Tentang</a>
+            </li>
+            <li>
+              <a href="#education" class="navbar-link">Pendidikan</a>
+            </li>
+            <li>
+              <a href="#project" class="navbar-link">Proyek</a>
+            </li>
+            <li>
+              <a href="#skills" class="navbar-link">Keahlian</a>
+            </li>
+            <li>
+              <a href="#certificate" class="navbar-link">Sertifikat</a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-link">Kontak</a>
+            </li>
+          </ul>
+        </nav>
 
-          <li>
-            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
-          </li>
+        <!-- Header Actions (Single CV Download & Mobile Toggle) -->
+        <div class="header-actions">
+          <a
+            href="./assets/file/CV_ACHMAD FATIH MUZAQI WEB DEVELOPER.pdf"
+            download
+            class="btn btn-primary btn-sm header-cv-btn"
+          >
+            <i class="fas fa-file-arrow-down"></i>
+            <span class="btn-text">Unduh CV</span>
+          </a>
 
-          <li>
-            <a href="#certificate" class="navbar-link" data-nav-link>Certificate</a>
-          </li>
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle Menu Navigasi"
+            data-nav-toggle-btn
+          >
+            <i class="fas fa-bars menu-icon"></i>
+            <i class="fas fa-xmark close-icon"></i>
+          </button>
+        </div>
+      </div>
+    </header>
 
-          <li>
-            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
-          </li>
+    <!-- Mobile Drawer Overlay -->
+    <div class="navbar-overlay" data-navbar-overlay></div>
 
-          <li>
-            <a href="/assets/file/CV Achmad Fatich Muzaqi.pdf" download class="btn btn-primary">Download CV</a>
-          </li>
-
-        </ul>
-      </nav>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
+    <main>
+      <!--==================== HERO SECTION ====================-->
       <section class="hero" id="home">
         <div class="container">
+          <div class="hero-grid">
+            <!-- Left Column: Content -->
+            <div class="hero-content reveal">
+              <p class="hero-greeting">Halo semua, Saya 👋</p>
 
-          <div class="hero-banner">
+              <h1 class="hero-title">
+                <span class="gradient-text" id="typing">Fatih Muzaqi</span>
+                <span class="typing-cursor">|</span>
+              </h1>
 
-            <img src="./assets/images/photo_fatih.jpeg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
-              class="img-cover">
+              <div class="hero-role">
+                <i class="fas fa-code"></i>
+                <span class="hero-role-badge">Web Developer</span>
+              </div>
 
-            <div class="elem elem-1">
-              <p class="elem-title">15</p>
+              <blockquote class="hero-quote">
+                "Orang yang sudah berhasil mengalahkan rasa malas dan keraguan
+                dalam dirinya, akan lebih mudah meraih apa pun yang dia
+                impikan."
+              </blockquote>
 
-              <p class="elem-text">Complete the course
-</p>
+              <!-- Action Buttons -->
+              <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i> Hubungi Saya
+                </a>
+                <a href="#project" class="btn btn-outline">
+                  <i class="fas fa-laptop-code"></i> Lihat Proyek
+                </a>
+              </div>
+
+              <!-- Social Media Bar -->
+              <div class="hero-social">
+                <a
+                  href="https://github.com/FatihMuzaqi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  title="GitHub Fatih Muzaqi"
+                >
+                  <img src="./assets/images/github_logo.webp" alt="GitHub" />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/ahmad-fatih-muzaqi-8b3880311"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  title="LinkedIn Fatih Muzaqi"
+                >
+                  <img src="./assets/images/LinkedIn_logo.png" alt="LinkedIn" />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/fatih_muzaqii"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  title="Instagram Fatih Muzaqi"
+                >
+                  <img
+                    src="./assets/images/Instagram_icon.webp"
+                    alt="Instagram"
+                  />
+                </a>
+
+                <a
+                  href="https://www.dicoding.com/users/fatih_muzaqi75"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  title="Profil Dicoding Fatih"
+                >
+                  <img src="./assets/images/dicoding.jpg" alt="Dicoding" />
+                </a>
+              </div>
             </div>
 
-            <div class="elem elem-2">
-              <p class="elem-title">50+</p>
+            <!-- Right Column: Visual Avatar -->
+            <div class="hero-visual reveal delay-2">
+              <div class="avatar-wrapper">
+                <div class="avatar-glow-ring"></div>
 
-              <p class="elem-text">Projects Completed</p>
+                <div class="avatar-card">
+                  <img
+                    src="./assets/images/photo_fatih.jpeg"
+                    alt="Foto Profil Achmad Fatih Muzaqi"
+                    width="400"
+                    height="480"
+                    loading="eager"
+                  />
+                </div>
+
+                <!-- Floating Stats -->
+                <div class="floating-stat stat-1">
+                  <div class="stat-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <div>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Kursus Selesai</div>
+                  </div>
+                </div>
+
+                <div class="floating-stat stat-2">
+                  <div class="stat-icon green">
+                    <i class="fas fa-trophy"></i>
+                  </div>
+                  <div>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Proyek Selesai</div>
+                  </div>
+                </div>
+
+                <!-- Rotating Badge -->
+                <div class="stamp-wrapper">
+                  <img
+                    src="./assets/images/text_lingkaran.png"
+                    alt="Developer from Tegal Indonesia"
+                    class="rotate-stamp"
+                  />
+                </div>
+              </div>
             </div>
-
-            <div class="elem elem-3">
-              <ion-icon name="trophy"></ion-icon>
-            </div>
-
-            <img src="./assets/images/text_lingkaran.png" width="169" height="172" alt="I'm developer from tegal indoensia"
-              class="rotate-img">
           </div>
-
-          <div class="hero-content">
-
-            <h2 class="hero-title">
-              <span>Hello I'm</span>
-              <strong id="typing"></strong> Web Developer 
-            </h2>
-
-            <p class="hero-text">
-              "Orang yang sudah berhasil mengalahkan dirinya sendiri, Akan mudah mendapatkan sesuatu yang dia inginkan"
-            </p>
-
-
-            <div class="sosial-media">
-              <a href="https://www.instagram.com/fatih_muzaqii?igsh=MTd5cGdlNGdsaDFzcA==">
-                <img src="/assets/images/Instagram_icon.webp" alt="">
-              </a>
-              <a href="https://github.com/FatihMuzaqi">
-                <img src="/assets/images/github_logo.webp" alt="">
-              </a>
-              <a href="https://www.linkedin.com/in/ahmad-fatih-muzaqi-8b3880311">
-                <img src="/assets/images/LinkedIn_logo.png" alt="">
-              </a>
-               <a href="https://www.dicoding.com/users/fatih_muzaqi75">
-                <img src="/assets/images/dicoding.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="btn-group">
-              <a href="#contact" class="btn btn-primary blue">Message</a>
-
-              <a href="#about" class="btn">About Me</a>
-            </div>
-
-          </div>
-
         </div>
       </section>
 
+      <!--==================== ABOUT SECTION ====================-->
       <section class="section about" id="about">
         <div class="container">
+          <div class="about-grid">
+            <!-- Left: Photos Collage -->
+            <div class="about-photos reveal">
+              <div class="about-photo-main">
+                <img
+                  src="./assets/images/poto1.jpeg"
+                  alt="Aktivitas Coding Achmad Fatih Muzaqi"
+                  loading="lazy"
+                />
+              </div>
 
-          <figure class="about-banner">
+              <div class="about-photo-sub">
+                <img
+                  src="./assets/images/poto2.jpeg"
+                  alt="Achmad Fatih Muzaqi di Meja Kerja"
+                  loading="lazy"
+                />
+              </div>
 
-            <img src="./assets/images/poto1.JPG" width="800" height="652" loading="lazy" alt="Ethan's Photo"
-              class="img-cover">
-
-            <img src="./assets/images/poto2.JPG" width="800" height="717" loading="lazy" alt="Ethan's Photo"
-              class="abs-img">
-
-            <div class="abs-icon abs-icon-1">
-              <ion-icon name="logo-css3"></ion-icon>
+              <div class="about-badge">
+                <i class="fas fa-laptop-code"></i>
+                <span>Problem Solver</span>
+              </div>
             </div>
 
-            <div class="abs-icon abs-icon-2">
-              <ion-icon name="logo-javascript"></ion-icon>
+            <!-- Right: About Details -->
+            <div class="about-content reveal delay-1">
+              <span class="section-subtitle">
+                <i class="fas fa-user"></i> Tentang Saya
+              </span>
+
+              <h2 class="section-title">
+                Dedikasi Penuh Membangun Solusi Web yang Efisien & Modern
+              </h2>
+
+              <p class="about-bio">
+                Saya adalah mahasiswa <strong>Teknik Informatika</strong> di
+                <strong>STMIK YMI Tegal</strong> yang memiliki antusiasme dan
+                komitmen tinggi dalam dunia software engineering, khususnya
+                arsitektur dan pengembangan aplikasi web.
+              </p>
+
+              <p class="about-bio">
+                Terbiasa membangun sistem mulai dari perancangan basis data,
+                RESTful API yang kokoh dengan Node.js dan Express, hingga
+                antarmuka responsif yang interaktif dan ramah pengguna. Memiliki
+                kemampuan komunikasi yang baik, senang berkolaborasi dalam tim,
+                dan selalu terbuka untuk mempelajari teknologi mutakhir.
+              </p>
+
+              <!-- Quick Info Grid -->
+              <div class="about-info-grid">
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Pendidikan</div>
+                    <div class="info-value">S1 Teknik Informatika</div>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-location-dot"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Domisili</div>
+                    <div class="info-value">Tegal, Jawa Tengah</div>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-layer-group"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Fokus Utama</div>
+                    <div class="info-value">Fullstack Web Dev</div>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                  <div>
+                    <div class="info-label">Status</div>
+                    <div class="info-value">Terbuka untuk Tawaran</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Milestones / Prestasi -->
+              <div class="about-milestones">
+                <div class="milestone-item">
+                  <i class="fas fa-medal"></i>
+                  <span
+                    ><strong>Juara 1 Lomba Web Design</strong> — Dies Natalis
+                    STMIK YMI TEGAL ke-24</span
+                  >
+                </div>
+                <div class="milestone-item">
+                  <i class="fas fa-award"></i>
+                  <span
+                    ><strong>Awardee Beasiswa DBS Foundation 2025</strong> —
+                    Alur Frontend & Backend Developer (Seleksi dari 60.000+
+                    Pendaftar)</span
+                  >
+                </div>
+              </div>
+
+              <div>
+                <a href="#project" class="btn btn-primary">
+                  <i class="fas fa-eye"></i> Jelajahi Hasil Karya
+                </a>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="abs-icon abs-icon-3">
-              <ion-icon name="logo-angular"></ion-icon>
-            </div>
-
-          </figure>
-
-          <div class="about-content">
-
-            <p class="section-subtitle">I'm a Developer</p>
-
-            <h2 class="h2 section-title">Mahasiswa yang memiliki impian menjadi Developer</h2>
-
+      <!--==================== EDUCATION SECTION ====================-->
+      <section class="section education" id="education">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-subtitle">
+              <i class="fas fa-book-open"></i> Riwayat Pendidikan
+            </span>
+            <h2 class="section-title">Latar Belakang Akademis</h2>
             <p class="section-text">
-              Mahasiswa Teknik Informatika yang memiliki ketertarikan dan kemampuan di bidang pemrograman, khususnya dalam pengembangan aplikasi web. Terbiasa menggunakan berbagai bahasa dan framework pemrograman untuk membangun solusi digital yang efisien dan fungsional. Memiliki semangat belajar tinggi, mampu bekerja dalam tim maupun secara mandiri, serta antusias dalam mengikuti perkembangan teknologi terkini.
+              Jejak pembelajaran formal dan pelatihan teknis yang membentuk
+              fondasi keahlian software engineering saya.
             </p>
-
-            <!-- <p class="section-text">
-              Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-              omnis
-            </p> -->
-
-            <a href="#project" class="btn btn-primary blue">View Project</a>
-
           </div>
 
+          <div class="timeline-container">
+            <!-- Item 1: S1 STMIK YMI -->
+            <div class="timeline-node left reveal delay-1">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass-card">
+                <span class="timeline-badge current"
+                  >2022 - Sekarang (Aktif)</span
+                >
+                <h3 class="timeline-title">Sarjana (S1) Teknik Informatika</h3>
+                <h4 class="timeline-institution">STMIK YMI TEGAL</h4>
+
+                <div class="timeline-period">
+                  <i class="far fa-calendar-alt"></i>
+                  <span
+                    >Semester Berjalan • Fokus Web & Rekayasa Perangkat
+                    Lunak</span
+                  >
+                </div>
+
+                <p class="timeline-desc">
+                  Mendalami pemecahan masalah komputasi, struktur data dan
+                  algoritma, perancangan basis data relasional, pemrograman
+                  berorientasi objek, serta arsitektur sistem informasi. Aktif
+                  sebagai koordinator minat & bakat pada UKM Mancing (Mahasiswa
+                  Pecinta Coding).
+                </p>
+
+                <div class="timeline-tags">
+                  <span class="timeline-tag">Algoritma & Struktur Data</span>
+                  <span class="timeline-tag">Basis Data MySQL</span>
+                  <span class="timeline-tag">Software Engineering</span>
+                  <span class="timeline-tag">Web Development</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2: SMK TKJ -->
+            <div class="timeline-node right reveal delay-2">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass-card">
+                <span class="timeline-badge past">2019 - 2022</span>
+                <h3 class="timeline-title">Teknik Komputer & Jaringan (TKJ)</h3>
+                <h4 class="timeline-institution">SMK Ma'Arif NU 01 Suradadi</h4>
+
+                <div class="timeline-period">
+                  <i class="far fa-calendar-alt"></i>
+                  <span>Lulus • Fokus Infrastruktur Jaringan & Komputer</span>
+                </div>
+
+                <p class="timeline-desc">
+                  Mempelajari dasar instalasi sistem operasi, konfigurasi
+                  jaringan komputer (LAN/WAN, routing, switching), pemeliharaan
+                  perangkat keras, administrasi server Linux, serta pondasi
+                  logika pemrograman.
+                </p>
+
+                <div class="timeline-tags">
+                  <span class="timeline-tag">Computer Networking</span>
+                  <span class="timeline-tag">Linux Server</span>
+                  <span class="timeline-tag">Hardware & Troubleshooting</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="section education" id="education">
-       <div class="container">
-
-        <p class="section-subtitle">Education</p>
-
-          <h2 class="h2 section-title">My Education</h2>
-          
-        
-         <div class="timeline">
-            <!-- Pendidikan Tinggi -->
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="education-level">Sarjana (S1)</span>
-                    <h3 class="school-name">STMIK YMI TEGAL</h3>
-                    <p class="program">Teknik Informatika</p>
-                    <div class="period">
-                        <svg class="period-icon" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
-                        </svg>
-                        <span>2022 - Now</span>
-                    </div>
-                    <p class="description">
-                        Berfokus pada pengembangan keterampilan software engineering, logika algoritma, 
-                        dan pemrograman, serta terus membekali diri agar siap bersaing di industri teknologi.
-                    </p>
-                    
-                </div>
-            </div>
-
-            <!-- SMA -->
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="education-level">SMK</span>
-                    <h3 class="school-name">SMK Ma'Arif NU 01 Suradadi</h3>
-                    <p class="program">Teknik Komputer dan Jaringan</p>
-                    <div class="period">
-                        <svg class="period-icon" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
-                        </svg>
-                        <span>2019 - 2022</span>
-                    </div>
-                    <p class="description">
-                        Mengambil jurusan Teknik Komputer dan Jaringan, 
-                        dengan fokus pada pengembangan skill komputer dan jaringan
-                    </p>
-                    
-                </div>
-            </div>
-
-      </div>
-       </div>
-      </section>
-
-
-<section id="project" class="project">
-  <p class="section-subtitle">Project</p>
-
-          <h2 class="h2 section-title">My Project</h2>
-          <p class="section-text">
-            The best project I have ever made 
-          </p>
-          <br><br><br>
+      <!--==================== PROJECTS SECTION ====================-->
+      <section class="section project" id="project">
         <div class="container">
-          <div class="owl-carousel owl-theme">
+          <div class="section-header reveal">
+            <span class="section-subtitle">
+              <i class="fas fa-folder-open"></i> Portfolio Proyek
+            </span>
+            <h2 class="section-title">Karya & Solusi Digital</h2>
+            <p class="section-text">
+              Kompilasi proyek nyata yang saya bangun untuk instansi
+              pemerintahan, institusi pendidikan, dan platform digital publik.
+            </p>
+          </div>
+
+          <!-- Owl Carousel Slider for Projects -->
+          <div
+            class="owl-carousel owl-theme reveal delay-1"
+            id="project-carousel"
+          >
+            <!-- Project 1: SIQRIS -->
             <div class="project-card">
-                <div class="project-image">
-                    <img src="/assets/images/siqris.JPG">
+              <div class="project-thumb">
+                <img
+                  src="./assets/images/siqris.JPG"
+                  alt="Tangkapan Layar Sistem QR Code Inventaris (SIQRIS)"
+                  loading="lazy"
+                />
+                <span class="project-category-badge">Inventaris Sistem</span>
+                <div class="project-overlay">
+                  <span class="text-white text-sm"
+                    ><i class="fas fa-building"></i> Kominfo</span
+                  >
                 </div>
-                <div class="project-content">
-                    <h3>Sistem QR Code Inventaris (SIQRIS)</h3>
-                    <p>Sistem QR Code pada barang-barang inventaris memberikan kemudahan dalam proses identifikasi, pelacakan, dan pengelolaan aset secara efisien.</p>
-                    <div class="project-tags">
-                        <div class="tag">Express.js</div>
-                        <div class="tag">Node.js</div>
-                        <div class="tag">Mysql</div>
-                        <div class="tag">EJS</div>
-                    </div>
-                    <div class="project-links">
-                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a> -->
-                        <a href="https://github.com/FatihMuzaqi/Sistem-QR-Inventaris-Kominfo-"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">
+                  Sistem QR Code Inventaris (SIQRIS)
+                </h3>
+                <p class="project-desc">
+                  Sistem inventaris aset instansi berbasis QR Code untuk
+                  kemudahan pelacakan, pencatatan otomatis, dan pelaporan barang
+                  secara terpadu.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag-badge">Node.js</span>
+                  <span class="tag-badge">Express.js</span>
+                  <span class="tag-badge">MySQL</span>
+                  <span class="tag-badge">EJS</span>
                 </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="/assets/images/pendaftaran.JPG">
+
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/FatihMuzaqi/Sistem-QR-Inventaris-Kominfo-"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn github"
+                  >
+                    <i class="fab fa-github"></i> Repository
+                  </a>
                 </div>
-                <div class="project-content">
-                    <h3>Sistem Pendaftaran Magang Online</h3>
-                    <p>Sistem pendaftaran magang online Kominfo memberikan kemudahan bagi mahasiswa untuk mendaftar magang secara efisien, cepat, dan transparan.</p>
-                    <div class="project-tags">
-                        <div class="tag">Express.js</div>
-                        <div class="tag">Node.js</div>
-                        <div class="tag">Mysql</div>
-                        <div class="tag">EJS</div>
-                    </div>
-                    <div class="project-links">
-                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a> -->
-                        <a href="https://github.com/FatihMuzaqi/Sistem-Pendaftaran-Magang-Online-Kominfo"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="/assets/images/tamu.JPG">
-                </div>
-                <div class="project-content">
-                    <h3>Sistem Check-In Tamu Digital</h3>
-                    <p>Sistem tamu digital di instansi Kominfo berfungsi untuk mencatat kunjungan secara elektronik, menyimpan data tamu dengan aman.</p>
-                    <div class="project-tags">
-                        <div class="tag">Express.js</div>
-                        <div class="tag">Node.js</div>
-                        <div class="tag">Mysql</div>
-                        <div class="tag">EJS</div>
-                    </div>
-                    <div class="project-links">
-                        <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a> -->
-                        <a href="https://github.com/FatihMuzaqi/Sistem-Check-In-Tamu-Digital-Kominfo"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
+              </div>
             </div>
 
+            <!-- Project 2: Pendaftaran Magang -->
             <div class="project-card">
-                <div class="project-image">
-                    <img src="/assets/images/kesehatanku.JPG">
+              <div class="project-thumb">
+                <img
+                  src="./assets/images/pendaftaran.JPG"
+                  alt="Tangkapan Layar Sistem Pendaftaran Magang Online"
+                  loading="lazy"
+                />
+                <span class="project-category-badge">Portal Pendaftaran</span>
+                <div class="project-overlay">
+                  <span class="text-white text-sm"
+                    ><i class="fas fa-users"></i> Kominfo</span
+                  >
                 </div>
-                <div class="project-content">
-                    <h3>KesehatanKu</h3>
-                    <p>Platform kesehatan yang menyediakan cek kesehatan dan konsultasi penyakit secara gratis, didukung oleh artikel dan teknologi Machine Learning.</p>
-                    <div class="project-tags">
-                        <div class="tag">Hapi.js</div>
-                        <div class="tag">Node.js</div>
-                        <div class="tag">React.js</div>
-                        <div class="tag">Mysql</div>
-                        <div class="tag">Flask</div>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://frontend-kesehatanku.vercel.app/"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        <a href="https://github.com/FatihMuzaqi/frontend-kesehatanku"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="/assets/images/smp2tegal.JPG">
-                </div>
-                <div class="project-content">
-                    <h3>Sistem Informasi Sekolah SMP N 2 TEGAL</h3>
-                    <p>Menyediakan informasi umum sekolah: visi-misi, sejarah, struktur organisasi, fasilitas, prestasi.</p>
-                    <div class="project-tags">
-                        <div class="tag">Express.js</div>
-                        <div class="tag">Node.js</div>
-                        <div class="tag">Mysql</div>
-                        <div class="tag">EJS</div>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://smp2tegal.sch.id/"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        <a href="#"><i class="fab fa-github"></i> Cloused Source</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="/assets/images/laptopp.JPG">
-                </div>
-                <div class="project-content">
-                    <h3>Landing Page Produk</h3>
-                    <p>Website ini memperkenalkan dan menjual satu produk atau layanan secara fokus. berisi deskripsi, gambar/video produk, testimoni.</p>
-                    <div class="project-tags">
-                        <div class="tag">HTML</div>
-                        <div class="tag">CSS</div>
-                        <div class="tag">Javascript</div>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://laptop-shop-pwa.vercel.app/"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        <a href="https://github.com/FatihMuzaqi/Laptop-Shop-PWA"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
+              </div>
 
+              <div class="project-body">
+                <h3 class="project-title">Sistem Pendaftaran Magang Online</h3>
+                <p class="project-desc">
+                  Aplikasi web untuk mengelola penerimaan dan verifikasi berkas
+                  magang mahasiswa secara terpusat, transparan, dan efisien.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag-badge">Express.js</span>
+                  <span class="tag-badge">Node.js</span>
+                  <span class="tag-badge">MySQL</span>
+                  <span class="tag-badge">EJS</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/FatihMuzaqi/Sistem-Pendaftaran-Magang-Online-Kominfo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn github"
+                  >
+                    <i class="fab fa-github"></i> Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: Check-In Tamu -->
+            <div class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="./assets/images/tamu.JPG"
+                  alt="Tangkapan Layar Sistem Check-In Tamu Digital"
+                  loading="lazy"
+                />
+                <span class="project-category-badge">Buku Tamu Digital</span>
+                <div class="project-overlay">
+                  <span class="text-white text-sm"
+                    ><i class="fas fa-clipboard-check"></i> Kominfo</span
+                  >
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">Sistem Check-In Tamu Digital</h3>
+                <p class="project-desc">
+                  Mencatat data kunjungan tamu secara elektronik pada instansi
+                  pemerintah untuk menggantikan formulir manual dan meningkatkan
+                  keamanan.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag-badge">Express.js</span>
+                  <span class="tag-badge">Node.js</span>
+                  <span class="tag-badge">MySQL</span>
+                  <span class="tag-badge">EJS</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/FatihMuzaqi/Sistem-Check-In-Tamu-Digital-Kominfo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn github"
+                  >
+                    <i class="fab fa-github"></i> Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4: KesehatanKu -->
+            <div class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="./assets/images/kesehatanku.JPG"
+                  alt="Tangkapan Layar Platform KesehatanKu"
+                  loading="lazy"
+                />
+                <span class="project-category-badge">HealthTech & AI</span>
+                <div class="project-overlay">
+                  <span class="text-white text-sm"
+                    ><i class="fas fa-heartbeat"></i> Medical Platform</span
+                  >
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">KesehatanKu</h3>
+                <p class="project-desc">
+                  Platform layanan kesehatan dengan fitur konsultasi penyakit,
+                  artikel medis terpercaya, serta integrasi model Machine
+                  Learning untuk skrining mandiri.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag-badge">React.js</span>
+                  <span class="tag-badge">Hapi.js</span>
+                  <span class="tag-badge">Node.js</span>
+                  <span class="tag-badge">Flask / ML</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="https://frontend-kesehatanku.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn demo"
+                  >
+                    <i class="fas fa-arrow-up-right-from-square"></i> Demo
+                  </a>
+                  <a
+                    href="https://github.com/FatihMuzaqi/frontend-kesehatanku"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn github"
+                  >
+                    <i class="fab fa-github"></i> Kode
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 5: SMPN 2 Tegal -->
+            <div class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="./assets/images/smp2tegal.JPG"
+                  alt="Tangkapan Layar Web Profil SMP N 2 Tegal"
+                  loading="lazy"
+                />
+                <span class="project-category-badge">Web Sekolah</span>
+                <div class="project-overlay">
+                  <span class="text-white text-sm"
+                    ><i class="fas fa-school"></i> Portal Edukasi</span
+                  >
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">Sistem Informasi SMP N 2 TEGAL</h3>
+                <p class="project-desc">
+                  Website portal profil sekolah resmi yang menyajikan data
+                  profil, prestasi murid, fasilitas sarana, dan informasi
+                  kegiatan akademik secara responsif.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag-badge">Express.js</span>
+                  <span class="tag-badge">Node.js</span>
+                  <span class="tag-badge">MySQL</span>
+                  <span class="tag-badge">EJS</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="https://smp2tegal.sch.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn demo"
+                  >
+                    <i class="fas fa-arrow-up-right-from-square"></i> Live Web
+                  </a>
+                  <span
+                    class="project-btn closed"
+                    title="Proyek Klien Tertutup"
+                  >
+                    <i class="fas fa-lock"></i> Closed Source
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 6: Laptop Shop PWA -->
+            <div class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="./assets/images/laptopp.JPG"
+                  alt="Tangkapan Layar Landing Page Laptop PWA"
+                  loading="lazy"
+                />
+                <span class="project-category-badge">E-Commerce & PWA</span>
+                <div class="project-overlay">
+                  <span class="text-white text-sm"
+                    ><i class="fas fa-mobile-alt"></i> PWA App</span
+                  >
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">Landing Page Laptop PWA</h3>
+                <p class="project-desc">
+                  Landing page promosi produk laptop modern dengan kemampuan
+                  Progressive Web App, performa optimal, dan tampilan adaptif di
+                  semua resolusi layar.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag-badge">HTML5</span>
+                  <span class="tag-badge">CSS3</span>
+                  <span class="tag-badge">JavaScript</span>
+                  <span class="tag-badge">PWA</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="https://laptop-shop-pwa.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn demo"
+                  >
+                    <i class="fas fa-arrow-up-right-from-square"></i> Demo
+                  </a>
+                  <a
+                    href="https://github.com/FatihMuzaqi/Laptop-Shop-PWA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn github"
+                  >
+                    <i class="fab fa-github"></i> Repository
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 7: Absensi Digital -->
+            <div class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="./assets/images/absensi.PNG"
+                  alt="Tangkapan Layar Sistem Absensi Digital"
+                  loading="lazy"
+                />
+                <span class="project-category-badge">Manajemen Kehadiran</span>
+                <div class="project-overlay">
+                  <span class="text-white text-sm"
+                    ><i class="fas fa-clock"></i> Web App</span
+                  >
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">Sistem Absensi Digital</h3>
+                <p class="project-desc">
+                  Aplikasi rekapitulasi absensi elektronik dengan validasi waktu
+                  presisi, rekap data kehadiran, dan pencetakan laporan
+                  otomatis.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag-badge">Express.js</span>
+                  <span class="tag-badge">Node.js</span>
+                  <span class="tag-badge">MySQL</span>
+                  <span class="tag-badge">Bootstrap</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/FatihMuzaqi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn github"
+                  >
+                    <i class="fab fa-github"></i> Profil GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 8: Jelajah Tegal -->
+            <div class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="./assets/images/jelajahtegal.PNG"
+                  alt="Tangkapan Layar Portal Wisata Jelajah Tegal"
+                  loading="lazy"
+                />
+                <span class="project-category-badge">Portal Wisata</span>
+                <div class="project-overlay">
+                  <span class="text-white text-sm"
+                    ><i class="fas fa-map-marked-alt"></i> Pariwisata</span
+                  >
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h3 class="project-title">Jelajah Tegal - Wisata Daerah</h3>
+                <p class="project-desc">
+                  Platform promosi destinasi wisata kuliner, sejarah, dan alam
+                  di wilayah Kabupaten & Kota Tegal dengan antarmuka interaktif.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag-badge">HTML5</span>
+                  <span class="tag-badge">CSS3</span>
+                  <span class="tag-badge">JavaScript</span>
+                  <span class="tag-badge">UI/UX</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/FatihMuzaqi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn github"
+                  >
+                    <i class="fab fa-github"></i> Profil GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS SECTION ====================-->
       <section class="section skills" id="skills">
         <div class="container">
-
-          <p class="section-subtitle">Skillset</p>
-
-          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
-
-          <p class="section-text">
-            Programming Languages ​​and Frameworks I Master
-          </p>
-
-          <div class="img-list">
-            <img src="/assets/images/html.webp" alt="">
-            <img src="/assets/images/css.webp" alt="">
-            <img src="/assets/images/javascript.webp" alt="">
-            <img src="/assets/images/typescript.png" alt="">
-            <img src="/assets/images/node.webp" alt="">
-            <img src="/assets/images/express.webp" alt="">
-            <img src="/assets/images/hapi.png" alt="">
-            <img src="/assets/images/mysql.webp" alt="">
+          <div class="section-header reveal">
+            <span class="section-subtitle">
+              <i class="fas fa-layer-group"></i> Tech Stack & Toolkit
+            </span>
+            <h2 class="section-title">Keahlian & Teknologi</h2>
+            <p class="section-text">
+              Bahasa pemrograman, runtime, framework, dan tools yang saya
+              gunakan secara aktif dalam mengembangkan produk digital.
+            </p>
           </div>
 
-        </div>
-      </section>
-
-
-  <section class="section certificate" id="certificate">
-        <div class="container">
-
-          <p class="section-subtitle">Certificates and awards</p>
-
-          <h2 class="h2 section-title">I am currently actively taking the course</h2>
-
-          <!-- <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
-          </p> -->
-
-          <ul class="owl-carousel owl-theme">
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Backend pemula_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="" onclick="showImage()">Backend Pemula dengan Javascript</a>
-                </h3>
-
+          <div class="skills-wrapper">
+            <!-- Frontend Category -->
+            <div class="skill-category-card glass-card reveal delay-1">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <h3 class="skill-category-title">Frontend Development</h3>
               </div>
-            </li>
 
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Dasar Git dengan GitHub_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Dasar Git dengan GitHub</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Dasar Pemrogramman Javascript_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Dasar Pemrogramman Javascript</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Dasar Pemrogramman Web_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Dasar Pemrogramman Web</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Fundamental Front-End Web Development_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Fundamental Front-End Web Development</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Membuat Front-End Web untuk Pemula_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Membuat Front-End Web untuk Pemula</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Memulai Dasar Pemrograman untuk Menjadi Pengembang_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Memulai Dasar Pemrograman untuk Menjadi Pengembang</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Pengembangan Web Intermediate_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Pengembangan Web Intermediate</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Belajar Pengenalan ke Logika Pemrograman (Programming Logic 101)_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Pengenalan ke Logika Pemrograman (Programming Logic 101)</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/BelajarAws cloude_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#"> Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/BelajarDasarAI_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Belajar Dasar AI</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="certificate-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/Financial Literacy_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Dicoding Indonesia</a>
-
-                <h3 class="card-title">
-                  <a href="#">Financial Literacy</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/SERTIFICATE BASIS DATA FATIH_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Oracle Academy</a>
-
-                <h3 class="card-title">
-                  <a href="#">Java Fundamentals</a>
-                </h3>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/certificate/SERTIFICATE ALGHORITHMA  DAN PEMROGRAMAN FATIH_page-0001.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
-                  </a>
-                </figure>
-
-                <a href="#" class="card-tag">Oracle Academy</a>
-
-                <h3 class="card-title">
-                  <a href="#">Database Foundations</a>
-                </h3>
-
-              </div>
-            </li>
-
-          </ul>
-        </div>
-      </section>
-
-      <section class="section contact" id="contact">
-        <div class="container">
-
-          <div class="contact-card">
-
-            <!-- <p class="card-subtitle">Don't be shy</p> -->
-
-            <h2 class="h2 section-title">Send Message</h2>
-
-            <div class="wrapper">
-
-              <form action="" id="contact-form" class="contact-form">
-
-                <input type="text" name="name" placeholder="Name" required class="contact-input">
-
-                <input type="email" name="email" placeholder="Email" required class="contact-input">
-
-                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
-
-                <button type="submit" class="btn-submit">Submit Message</button>
-
-              </form>
-
-              <ul class="contact-list">
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="location"></ion-icon>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img src="./assets/images/html.webp" alt="HTML5 Logo" />
                   </div>
+                  <span class="skill-name">HTML5</span>
+                </div>
 
-                  <div>
-                    <h3 class="contact-item-title">Address</h3>
-
-                    <address class="contact-item-link">
-                      Tegal, Jawa Tengah, Indonesia
-                    </address>
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img src="./assets/images/css.webp" alt="CSS3 Logo" />
                   </div>
+                  <span class="skill-name">CSS3</span>
+                </div>
 
-                </li>
-
-                <li class="contact-item">
-
-                  <div class="contact-icon">
-                    <ion-icon name="mail"></ion-icon>
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img
+                      src="./assets/images/javascript.webp"
+                      alt="JavaScript Logo"
+                    />
                   </div>
+                  <span class="skill-name">JavaScript</span>
+                </div>
 
-                  <div>
-                    <h3 class="contact-item-title">Email</h3>
-
-                    <a href="fatih.muzaqi123@gmail.com" class="contact-item-link">fatih.muzaqi123@gmail.com</a>
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img
+                      src="./assets/images/typescript.png"
+                      alt="TypeScript Logo"
+                    />
                   </div>
+                  <span class="skill-name">TypeScript</span>
+                </div>
 
-                </li>
-
-                <li class="contact-item">
-
-                  <!-- <div class="contact-icon">
-                    <ion-icon name="call"></ion-icon>
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img src="./assets/images/react.webp" alt="React.js Logo" />
                   </div>
-
-                  <div>
-                    <h3 class="contact-item-title">Phone</h3>
-
-                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
-                  </div> -->
-
-                </li>
-
-              </ul>
-
+                  <span class="skill-name">React.js</span>
+                </div>
+              </div>
             </div>
 
-          </div>
+            <!-- Backend Category -->
+            <div class="skill-category-card glass-card reveal delay-2">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <h3 class="skill-category-title">Backend Development</h3>
+              </div>
 
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img src="./assets/images/node.webp" alt="Node.js Logo" />
+                  </div>
+                  <span class="skill-name">Node.js</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img
+                      src="./assets/images/express.webp"
+                      alt="Express.js Logo"
+                    />
+                  </div>
+                  <span class="skill-name">Express.js</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img src="./assets/images/hapi.png" alt="Hapi.js Logo" />
+                  </div>
+                  <span class="skill-name">Hapi.js</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img src="./assets/images/php.webp" alt="PHP Logo" />
+                  </div>
+                  <span class="skill-name">PHP</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img
+                      src="./assets/images/laravel.webp"
+                      alt="Laravel Logo"
+                    />
+                  </div>
+                  <span class="skill-name">Laravel</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Database & Tools -->
+            <div class="skill-category-card glass-card reveal delay-3">
+              <div class="skill-category-header">
+                <div class="category-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <h3 class="skill-category-title">Database & Tools</h3>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img src="./assets/images/mysql.webp" alt="MySQL Logo" />
+                  </div>
+                  <span class="skill-name">MySQL</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img
+                      src="./assets/images/mongodb.webp"
+                      alt="MongoDB Logo"
+                    />
+                  </div>
+                  <span class="skill-name">MongoDB</span>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-logo-box">
+                    <img
+                      src="./assets/images/github_logo.webp"
+                      alt="Git & GitHub"
+                    />
+                  </div>
+                  <span class="skill-name">Git & GitHub</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
+      <!--==================== CERTIFICATES SECTION ====================-->
+      <section class="section certificate" id="certificate">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-subtitle">
+              <i class="fas fa-certificate"></i> Lisensi & Sertifikasi
+            </span>
+            <h2 class="section-title">Kompetensi & Sertifikasi</h2>
+            <p class="section-text">
+              Bukti pelatihan dan sertifikasi kompetensi industri dari platform
+              Dicoding Indonesia dan Oracle Academy. Klik sertifikat untuk
+              melihat tampilan pratinjau.
+            </p>
+          </div>
 
+          <!-- Owl Carousel Slider for Certificates -->
+          <div
+            class="owl-carousel owl-theme reveal delay-1"
+            id="certificate-carousel"
+          >
+            <!-- Cert 1: Backend Pemula -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Backend pemula_page-0001.jpg',
+                  'Backend Pemula dengan Javascript',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Backend pemula_page-0001.jpg"
+                  alt="Sertifikat Backend Pemula dengan Javascript"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">Backend Pemula dengan Javascript</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
+            <!-- Cert 2: Dasar Git -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Dasar Git dengan GitHub_page-0001.jpg',
+                  'Belajar Dasar Git dengan GitHub',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Dasar Git dengan GitHub_page-0001.jpg"
+                  alt="Sertifikat Belajar Dasar Git dengan GitHub"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">Belajar Dasar Git dengan GitHub</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
+            <!-- Cert 3: Dasar JS -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Dasar Pemrogramman Javascript_page-0001.jpg',
+                  'Belajar Dasar Pemrograman Javascript',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Dasar Pemrogramman Javascript_page-0001.jpg"
+                  alt="Sertifikat Belajar Dasar Pemrograman Javascript"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">Belajar Dasar Pemrograman Javascript</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-      <!-- 
-        - #BLOG
-      -->
+            <!-- Cert 4: Dasar Web -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Dasar Pemrogramman Web_page-0001.jpg',
+                  'Belajar Dasar Pemrograman Web',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Dasar Pemrogramman Web_page-0001.jpg"
+                  alt="Sertifikat Belajar Dasar Pemrograman Web"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">Belajar Dasar Pemrograman Web</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-    
+            <!-- Cert 5: Fundamental Frontend -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Fundamental Front-End Web Development_page-0001.jpg',
+                  'Fundamental Front-End Web Development',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Fundamental Front-End Web Development_page-0001.jpg"
+                  alt="Sertifikat Fundamental Front-End Web Development"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">
+                  Fundamental Front-End Web Development
+                </h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-    </article>
-  </main>
+            <!-- Cert 6: Frontend Pemula -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Membuat Front-End Web untuk Pemula_page-0001.jpg',
+                  'Membuat Front-End Web untuk Pemula',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Membuat Front-End Web untuk Pemula_page-0001.jpg"
+                  alt="Sertifikat Membuat Front-End Web untuk Pemula"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">Membuat Front-End Web untuk Pemula</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
+            <!-- Cert 7: Memulai Dasar Pemrograman -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Memulai Dasar Pemrograman untuk Menjadi Pengembang_page-0001.jpg',
+                  'Memulai Dasar Pemrograman untuk Menjadi Pengembang',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Memulai Dasar Pemrograman untuk Menjadi Pengembang_page-0001.jpg"
+                  alt="Sertifikat Memulai Dasar Pemrograman untuk Pengembang"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">
+                  Dasar Pemrograman untuk Menjadi Pengembang
+                </h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
+            <!-- Cert 8: Web Intermediate -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Pengembangan Web Intermediate_page-0001.jpg',
+                  'Belajar Pengembangan Web Intermediate',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Pengembangan Web Intermediate_page-0001.jpg"
+                  alt="Sertifikat Pengembangan Web Intermediate"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">Pengembangan Web Intermediate</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-  <!-- 
-    - #FOOTER
-  -->
+            <!-- Cert 9: Logika Pemrograman -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Belajar Pengenalan ke Logika Pemrograman (Programming Logic 101)_page-0001.jpg',
+                  'Pengenalan ke Logika Pemrograman (Logic 101)',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Belajar Pengenalan ke Logika Pemrograman (Programming Logic 101)_page-0001.jpg"
+                  alt="Sertifikat Pengenalan Logika Pemrograman"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">
+                  Pengenalan ke Logika Pemrograman (Logic 101)
+                </h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-  <footer class="footer">
-    <div class="container">
+            <!-- Cert 10: AWS Cloud -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/BelajarAws cloude_page-0001.jpg',
+                  'Cloud Practitioner Essentials (Dasar AWS Cloud)',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/BelajarAws cloude_page-0001.jpg"
+                  alt="Sertifikat Dasar AWS Cloud"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">
+                  Cloud Practitioner Essentials (Dasar AWS)
+                </h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-      <p class="copyright">
-        &copy; 2025 <a href="#" class="copyright-link">SynergyTeam</a>
-      </p>
+            <!-- Cert 11: Dasar AI -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/BelajarDasarAI_page-0001.jpg',
+                  'Belajar Dasar Artificial Intelligence (AI)',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/BelajarDasarAI_page-0001.jpg"
+                  alt="Sertifikat Dasar AI"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">Belajar Dasar AI</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-      <ul class="footer-list">
-        <li>
-          <a href="#" class="footer-link">Terms & Condition</a>
-        </li>
+            <!-- Cert 12: Database Foundations -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/SERTIFICATE BASIS DATA FATIH_page-0001.jpg',
+                  'Database Foundations',
+                  'Oracle Academy',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/SERTIFICATE BASIS DATA FATIH_page-0001.jpg"
+                  alt="Sertifikat Database Foundations Oracle Academy"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-certificate"></i> Oracle Academy
+                </span>
+                <h3 class="cert-title">Database Foundations</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-      </ul>
+            <!-- Cert 13: Java Fundamentals / Algoritma -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/SERTIFICATE ALGHORITHMA  DAN PEMROGRAMAN FATIH_page-0001.jpg',
+                  'Java Fundamentals & Algoritma Pemrograman',
+                  'Oracle Academy',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/SERTIFICATE ALGHORITHMA  DAN PEMROGRAMAN FATIH_page-0001.jpg"
+                  alt="Sertifikat Algoritma & Pemrograman Oracle Academy"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-certificate"></i> Oracle Academy
+                </span>
+                <h3 class="cert-title">Java Fundamentals & Algoritma</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
 
-    </div>
-  </footer>
+            <!-- Cert 14: Financial Literacy -->
+            <div
+              class="certificate-card"
+              onclick="
+                openCertModal(
+                  './assets/certificate/Financial Literacy_page-0001.jpg',
+                  'Financial Literacy',
+                  'Dicoding Indonesia',
+                )
+              "
+            >
+              <div class="cert-thumb">
+                <img
+                  src="./assets/certificate/Financial Literacy_page-0001.jpg"
+                  alt="Sertifikat Financial Literacy"
+                  loading="lazy"
+                />
+                <div class="cert-hover-hint">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+                  <span>Perbesar Sertifikat</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <span class="cert-issuer">
+                  <i class="fas fa-check-circle"></i> Dicoding Indonesia
+                </span>
+                <h3 class="cert-title">Financial Literacy</h3>
+                <div class="cert-footer">
+                  <span>Lihat Detail</span>
+                  <span class="cert-btn"
+                    ><i class="fas fa-arrow-right"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!--==================== CERTIFICATE LIGHTBOX MODAL ====================-->
+      <div class="cert-modal" id="cert-modal">
+        <div class="cert-modal-content">
+          <button
+            class="cert-modal-close"
+            id="cert-modal-close"
+            aria-label="Tutup Pratinjau Sertifikat"
+          >
+            <i class="fas fa-xmark"></i>
+          </button>
 
+          <div class="cert-modal-img-wrap">
+            <img
+              src=""
+              alt="Pratinjau Sertifikat"
+              id="cert-modal-img"
+              class="cert-modal-img"
+            />
+          </div>
 
+          <div class="cert-modal-details">
+            <div>
+              <h3 class="cert-modal-title" id="cert-modal-title">
+                Nama Sertifikat
+              </h3>
+              <p class="cert-modal-issuer" id="cert-modal-issuer">Penerbit</p>
+            </div>
 
+            <a
+              href="#"
+              target="_blank"
+              id="cert-modal-link"
+              class="btn btn-outline btn-sm"
+            >
+              <i class="fas fa-expand"></i> Buka Gambar Penuh
+            </a>
+          </div>
+        </div>
+      </div>
 
-  <!-- 
-    - #BACK TO TOP
-  -->
+      <!--==================== CONTACT SECTION ====================-->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-subtitle">
+              <i class="fas fa-envelope"></i> Hubungi Saya
+            </span>
+            <h2 class="section-title">Mari Berkolaborasi!</h2>
+            <p class="section-text">
+              Punya tawaran proyek, peluang magang/pekerjaan, atau pertanyaan?
+              Kirimkan pesan langsung melalui formulir di bawah ini.
+            </p>
+          </div>
 
-  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
-  <script src="./assets/js/script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script>
-  document.getElementById("contact-form").addEventListener("submit", function(e) {
-    e.preventDefault(); // Mencegah reload halaman
+          <div class="contact-grid">
+            <!-- Left: Contact Cards -->
+            <div class="contact-info-wrap reveal delay-1">
+              <div class="contact-card-item">
+                <div class="contact-icon-box">
+                  <i class="fas fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="contact-card-title">Lokasi</div>
+                  <div class="contact-card-val">
+                    Tegal, Jawa Tengah, Indonesia
+                  </div>
+                </div>
+              </div>
 
-    emailjs.sendForm("service_lys94ng", "template_jghxcnc", this)
-      .then(function(response) {
-        alert("Pesan berhasil dikirim!");
-      }, function(error) {
-        alert("Terjadi kesalahan saat mengirim pesan: " + error.text);
-      });
-  });
+              <div class="contact-card-item">
+                <div class="contact-icon-box">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <div class="contact-card-title">Alamat Email</div>
+                  <div class="contact-card-val">
+                    <a href="mailto:fatih.muzaqi123@gmail.com"
+                      >fatih.muzaqi123@gmail.com</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-   $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
-    loop: true,
-    margin: 20,
-    nav: true,
-    dots: true,
-    autoplay: true, // <--- ini wajib untuk bergerak otomatis
-    autoplayTimeout: 3000, // <--- durasi 3 detik antar slide
-    autoplayHoverPause: true, // <--- agar berhenti saat mouse hover
-    responsive: {
-      0: { items: 1 },
-      768: { items: 2 },
-      992: { items: 3 }
-    }
-  });
-});
+              <div class="contact-card-item">
+                <div class="contact-icon-box">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <div class="contact-card-title">LinkedIn</div>
+                  <div class="contact-card-val">
+                    <a
+                      href="https://www.linkedin.com/in/ahmad-fatih-muzaqi-8b3880311"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Ahmad Fatih Muzaqi</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-  (function(){
-    emailjs.init("BUXPtN4N6iyUGV0fI"); // Ganti dengan public key dari EmailJS
-  })();
+              <div class="contact-card-item">
+                <div class="contact-icon-box">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div>
+                  <div class="contact-card-title">GitHub</div>
+                  <div class="contact-card-val">
+                    <a
+                      href="https://github.com/FatihMuzaqi"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >github.com/FatihMuzaqi</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
 
-  function showImage(event) {
-      event.preventDefault(); // Cegah link reload
-      const img = document.getElementById('previewImage');
-      img.src = 'assets/certificate/Belajar Backend pemula_page-0001.jpg'; // pastikan path benar
-      img.style.display = 'block';
-    }
+            <!-- Right: Contact Form -->
+            <div class="contact-form-box glass-card reveal delay-2">
+              <h3 class="contact-form-title">Kirim Pesan Langsung</h3>
+              <p class="contact-form-subtitle">
+                Isi form di bawah, saya akan membalas pesan Anda secepatnya.
+              </p>
 
-const text = "Fatih Muzaqi";
-  const typingElement = document.getElementById("typing");
-  let index = 0;
-  let isDeleting = false;
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <div class="input-with-icon">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Masukkan nama Anda"
+                      required
+                      class="form-control"
+                    />
+                    <i class="fas fa-user input-icon"></i>
+                  </div>
+                </div>
 
-  function typeEffect() {
-    if (!isDeleting) {
-      // Mengetik huruf
-      typingElement.textContent = text.substring(0, index + 1);
-      index++;
+                <div class="form-group">
+                  <label for="email" class="form-label">Alamat Email</label>
+                  <div class="input-with-icon">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="nama@email.com"
+                      required
+                      class="form-control"
+                    />
+                    <i class="fas fa-envelope input-icon"></i>
+                  </div>
+                </div>
 
-      if (index === text.length) {
-        // Setelah selesai mengetik, tunggu 1.5 detik lalu mulai hapus
-        setTimeout(() => {
-          isDeleting = true;
-          typeEffect();
-        }, 1500);
-        return;
-      }
-    } else {
-      // Menghapus huruf
-      typingElement.textContent = text.substring(0, index - 1);
-      index--;
+                <div class="form-group">
+                  <label for="message" class="form-label">Pesan Anda</label>
+                  <div class="input-with-icon">
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Tuliskan pesan atau detail penawaran Anda..."
+                      required
+                      class="form-control"
+                    ></textarea>
+                    <i class="fas fa-comment-dots input-icon"></i>
+                  </div>
+                </div>
 
-      if (index === 0) {
-        // Setelah semua huruf dihapus, mulai mengetik lagi
-        isDeleting = false;
-      }
-    }
+                <button type="submit" class="btn btn-primary btn-submit">
+                  <span class="btn-text">
+                    <i class="fas fa-paper-plane"></i> Kirim Pesan
+                  </span>
+                  <div class="spinner"></div>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    // Kecepatan animasi
-    const speed = isDeleting ? 80 : 150;
-    setTimeout(typeEffect, speed);
-  }
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#top" class="logo">
+              <div class="logo-badge">F</div>
+              <span class="logo-text">Fatih<span>.dev</span></span>
+            </a>
+            <p class="footer-bio">
+              Achmad Fatih Muzaqi — Mahasiswa Teknik Informatika & Web
+              Developer. Berdedikasi menghadirkan solusi komputasi dan web yang
+              bersih, handal, dan berdaya guna.
+            </p>
+          </div>
 
-  document.addEventListener("DOMContentLoaded", typeEffect);
-</script>
-</body>
+          <ul class="footer-nav">
+            <li><a href="#home" class="footer-nav-link">Beranda</a></li>
+            <li><a href="#about" class="footer-nav-link">Tentang</a></li>
+            <li><a href="#project" class="footer-nav-link">Proyek</a></li>
+            <li><a href="#skills" class="footer-nav-link">Keahlian</a></li>
+            <li>
+              <a href="#certificate" class="footer-nav-link">Sertifikat</a>
+            </li>
+            <li><a href="#contact" class="footer-nav-link">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2026 <strong>Achmad Fatih Muzaqi</strong>. Hak Cipta
+            Dilindungi.
+          </p>
+
+          <div class="footer-social">
+            <a
+              href="https://github.com/FatihMuzaqi"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-link"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ahmad-fatih-muzaqi-8b3880311"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-link"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/fatih_muzaqii"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-social-link"
+              title="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="mailto:fatih.muzaqi123@gmail.com"
+              class="footer-social-link"
+              title="Kirim Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--==================== FLOATING BACK TO TOP ====================-->
+    <a
+      href="#top"
+      class="back-to-top"
+      aria-label="Kembali ke atas"
+      data-back-to-top
+    >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!--==================== JAVASCRIPT LIBS ====================-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Custom Main Script -->
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
